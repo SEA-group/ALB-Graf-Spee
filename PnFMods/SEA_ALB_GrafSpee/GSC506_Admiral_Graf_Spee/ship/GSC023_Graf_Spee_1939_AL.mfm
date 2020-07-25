@@ -1,0 +1,25 @@
+<GSC023_Graf_Spee_1939_AL.mfm>
+	<fx>	shaders/std_effects/PBS_ship_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	1.80000	</Float>
+	</property>
+	<property>	doubleSided
+		<Bool>	false	</Bool>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	false	</Bool>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939_AL_ao.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939_AL_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939_AL_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939_AL_n.dds	</Texture>
+	</property>
+</GSC023_Graf_Spee_1939_AL.mfm>

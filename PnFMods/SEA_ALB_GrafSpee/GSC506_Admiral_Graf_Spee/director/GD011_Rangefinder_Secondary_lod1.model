@@ -1,0 +1,7 @@
+<GD011_Rangefinder_Secondary_lod1.model>
+	<castsShadow>	false	</castsShadow>
+	<parent>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/director/GD011_Rangefinder_Secondary_lod2	</parent>
+	<extent>	8.0000	</extent>
+	<nodefullVisual>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/director/GD011_Rangefinder_Secondary_lod1	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</GD011_Rangefinder_Secondary_lod1.model>

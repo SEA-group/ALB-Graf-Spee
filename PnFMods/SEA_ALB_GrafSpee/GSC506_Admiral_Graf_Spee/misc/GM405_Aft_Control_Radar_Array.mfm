@@ -1,0 +1,16 @@
+<GM405_Aft_Control_Radar_Array.mfm>
+	<fx>	shaders/materials/pbs/ship_material.fx	</fx>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/default_ao.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/misc/GM405_Aft_Control_Radar_Array_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF048_10_5m_Rangefinder_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF048_10_5m_Rangefinder_n.dds	</Texture>
+	</property>
+</GM405_Aft_Control_Radar_Array.mfm>
