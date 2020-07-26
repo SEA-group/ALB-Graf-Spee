@@ -3,7 +3,6 @@
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/SEA-group/ALB-Graf-Spee?include_prereleases)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SEA-group/ALB-Graf-Spee)
 ![GitHub issues](https://img.shields.io/github/issues-raw/SEA-group/ALB-Graf-Spee)
-![GitHub](https://img.shields.io/github/license/SEA-group/ALB-Graf-Spee)
 ![GitHub download count](https://img.shields.io/github/downloads/SEA-group/ALB-Graf-Spee/total)
 
 Skin modification for tier 6 cruiser **Admiral Graf Spee**. 
