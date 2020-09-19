@@ -1,7 +1,0 @@
-<GSC023_Graf_Spee_1939_Stern_lod1.model>
-	<castsShadow>	true	</castsShadow>
-	<parent>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939_Stern_lod2	</parent>
-	<extent>	20.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939_Stern_lod1	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
-</GSC023_Graf_Spee_1939_Stern_lod1.model>

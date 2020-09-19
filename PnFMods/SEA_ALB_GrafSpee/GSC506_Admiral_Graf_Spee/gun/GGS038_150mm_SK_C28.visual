@@ -85,24 +85,6 @@
 							<row3>	0.0000 -0.1155 0.0036 1.0000	</row3>
 						</transform>
 					</node>
-					<node>
-						<identifier>	SP_YMS100_YGBS_M_1	</identifier>
-						<transform>
-							<row0>	0.4590 0.0000 0.0000 0.0000	</row0>
-							<row1>	0.0000 0.4590 0.0000 0.0000	</row1>
-							<row2>	0.0000 0.0000 0.4590 0.0000	</row2>
-							<row3>	0.0000 -0.0006 0.0837 1.0000	</row3>
-						</transform>
-					</node>
-					<node>
-						<identifier>	SP_YMS104_YGRS_M_1	</identifier>
-						<transform>
-							<row0>	0.4591 0.0000 0.0000 0.0000	</row0>
-							<row1>	0.0000 0.4591 0.0000 0.0000	</row1>
-							<row2>	0.0000 0.0000 0.4591 0.0000	</row2>
-							<row3>	0.0000 -0.0006 0.4168 1.0000	</row3>
-						</transform>
-					</node>
 				</node>
 				<node>
 					<identifier>	Rotate_Y_BlendBone	</identifier>
@@ -111,15 +93,6 @@
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
 						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-					</transform>
-				</node>
-				<node>
-					<identifier>	SP_YMS101_YGCS_M_1	</identifier>
-					<transform>
-						<row0>	0.4938 0.0000 0.0000 0.0000	</row0>
-						<row1>	0.0000 1.0671 0.0000 0.0000	</row1>
-						<row2>	0.0000 0.0000 0.6683 0.0000	</row2>
-						<row3>	0.0000 0.0128 0.0960 1.0000	</row3>
 					</transform>
 				</node>
 			</node>

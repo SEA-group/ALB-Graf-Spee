@@ -1,0 +1,13 @@
+<GF052_10_5m_Rangefinder_wire.mfm>
+	<collisionFlags>	0	</collisionFlags>
+	<fx>	shaders/materials/pbs/wire_material.fx	</fx>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/misc/GM039_RadarFuMO23_n.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/misc/GM039_RadarFuMO23_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/misc/GM039_RadarFuMO23_mg.dds	</Texture>
+	</property>
+</GF052_10_5m_Rangefinder_wire.mfm>

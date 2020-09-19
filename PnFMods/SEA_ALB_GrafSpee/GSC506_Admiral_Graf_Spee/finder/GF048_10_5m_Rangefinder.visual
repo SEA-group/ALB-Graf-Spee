@@ -33,12 +33,6 @@
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF048_10_5m_Rangefinder.mfm	</mfm>
 				</material>
 			</primitiveGroup>
-			<primitiveGroup>	1
-				<material>
-					<identifier>	SHIPMATX_PBS_Director	</identifier>
-					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF048_10_5m_Rangefinder.mfm	</mfm>
-				</material>
-			</primitiveGroup>
 		</geometry>
 	</renderSet>
 </GF048_10_5m_Rangefinder.visual>

@@ -87,24 +87,6 @@
 					<row3>	-0.0249 0.4353 5.1109 1.0000	</row3>
 				</transform>
 			</node>
-			<node>
-				<identifier>	MP_GM065_Firelead	</identifier>
-				<transform>
-					<row0>	0.7122 0.0002 0.1687 0.0000	</row0>
-					<row1>	0.0053 0.7315 -0.0233 0.0000	</row1>
-					<row2>	-0.1687 0.0239 0.7118 0.0000	</row2>
-					<row3>	0.3044 0.3908 5.2482 1.0000	</row3>
-				</transform>
-			</node>
-			<node>
-				<identifier>	MP_GM065_Firelead_INDEX_1	</identifier>
-				<transform>
-					<row0>	0.7122 -0.0002 -0.1687 0.0000	</row0>
-					<row1>	-0.0053 0.7315 -0.0233 0.0000	</row1>
-					<row2>	0.1687 0.0239 0.7118 0.0000	</row2>
-					<row3>	-0.3042 0.3908 5.2481 1.0000	</row3>
-				</transform>
-			</node>
 		</node>
 	</node>
 	<boundingBox>
