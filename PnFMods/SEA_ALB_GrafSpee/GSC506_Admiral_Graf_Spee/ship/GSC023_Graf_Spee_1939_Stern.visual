@@ -94,7 +94,7 @@
 			<primitive>	Stern_wireShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIRE_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBS_Hull	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
