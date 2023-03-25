@@ -34,7 +34,7 @@
 			<primitive>	GF010_lodShape2.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Director	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF010_Rangefinder_6m.mfm	</mfm>
 				</material>
 			</primitiveGroup>

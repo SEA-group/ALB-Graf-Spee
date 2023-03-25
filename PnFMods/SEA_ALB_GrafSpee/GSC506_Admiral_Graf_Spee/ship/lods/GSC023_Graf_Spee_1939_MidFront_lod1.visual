@@ -120,7 +120,7 @@
 			<primitive>	MidFront_crack_Bow_in_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Crack	</identifier>
+					<identifier>	SHIPMATX_PBSX_Crack	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/C002_Razlom.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -134,7 +134,7 @@
 			<primitive>	MidFront_crack_Bow_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -148,7 +148,7 @@
 			<primitive>	MidFront_crack_MidBack_in_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Crack	</identifier>
+					<identifier>	SHIPMATX_PBSX_Crack	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/C002_Razlom.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -162,7 +162,7 @@
 			<primitive>	MidFront_crack_MidBack_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -176,7 +176,7 @@
 			<primitive>	MidFront_glass_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPGLASS_PBS_Hull	</identifier>
+					<identifier>	SHIPGLASS_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/transparent_glass_alpha.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -190,7 +190,7 @@
 			<primitive>	MidFront_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -204,7 +204,7 @@
 			<primitive>	MidFront_patch_MidBack_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Hull	</identifier>
+					<identifier>	SHIPMATX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -218,7 +218,7 @@
 			<primitive>	MidFront_patch_MidBack_wire_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIREX_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -232,7 +232,7 @@
 			<primitive>	MidFront_wire_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPWIREX_PBS_Hull	</identifier>
+					<identifier>	SHIPWIREX_PBSX_Hull	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/ship/GSC023_Graf_Spee_1939_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>

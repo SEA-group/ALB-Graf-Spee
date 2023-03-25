@@ -29,7 +29,7 @@
 			<primitive>	Turret_dead_lod3Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_GunDead	</identifier>
+					<identifier>	SHIPMATX_PBSX_GunDead	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/gun/GGM058_280mm54_5_C34_dead.mfm	</mfm>
 				</material>
 			</primitiveGroup>

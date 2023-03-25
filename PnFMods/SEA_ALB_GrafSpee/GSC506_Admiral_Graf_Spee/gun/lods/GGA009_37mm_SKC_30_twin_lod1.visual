@@ -52,7 +52,7 @@
 			<primitive>	Turret_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Gun	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Gun	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/gun/GGA009_37mm_SKC_30_twin.mfm	</mfm>
 				</material>
 			</primitiveGroup>

@@ -34,7 +34,7 @@
 			<primitive>	GD011Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_Director	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/director/GD011_rangefinder_secondary.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -48,7 +48,7 @@
 			<primitive>	GD011_wireShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPWIREX_PBS_Director	</identifier>
+					<identifier>	TL2_SHIPWIREX_PBSX_Director	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/director/GD011_rangefinder_secondary_wire.mfm	</mfm>
 				</material>
 			</primitiveGroup>

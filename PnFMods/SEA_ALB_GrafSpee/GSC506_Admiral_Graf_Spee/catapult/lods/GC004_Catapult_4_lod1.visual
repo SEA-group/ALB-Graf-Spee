@@ -124,7 +124,7 @@
 			<primitive>	Catapult_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Catapult_skinned	</identifier>
+					<identifier>	SHIPMATX_PBSX_Catapult_skinned	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/catapult/GC004_Catapult_4_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>
@@ -138,7 +138,7 @@
 			<primitive>	Cradle_lod1Shape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	SHIPMATX_PBS_Catapult_skinned	</identifier>
+					<identifier>	SHIPMATX_PBSX_Catapult_skinned	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/catapult/GC004_Catapult_4_skinned.mfm	</mfm>
 				</material>
 			</primitiveGroup>

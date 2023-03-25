@@ -25,7 +25,7 @@
 			<primitive>	Turret_deadShape.indices	</primitive>
 			<primitiveGroup>	0
 				<material>
-					<identifier>	TL2_SHIPMATX_PBS_GunDead	</identifier>
+					<identifier>	TL2_SHIPMATX_PBSX_GunDead	</identifier>
 					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/gun/GGA007_20mm_Flak_38_dead.mfm	</mfm>
 				</material>
 			</primitiveGroup>
