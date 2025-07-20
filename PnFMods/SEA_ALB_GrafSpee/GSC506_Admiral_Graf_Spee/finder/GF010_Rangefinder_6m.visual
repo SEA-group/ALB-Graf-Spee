@@ -1,14 +1,7 @@
 <GF010_Rangefinder_6m.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	GF010	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,32 +9,107 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	MP_GM872_Signal_Lamps	</identifier>
+				<identifier>	GF010	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0554 0.0000 1.0000	</row3>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
+				<node>
+					<identifier>	MP_GM872_Signal_Lamps	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0554 0.0000 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	GF010	</node>
-		<geometry>
-			<vertices>	GF0Shape10.vertices	</vertices>
-			<primitive>	GF0Shape10.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
-					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF010_Rangefinder_6m.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.2206 0.0000 -0.0335	</min>
 		<max>	0.2208 0.0649 0.0343	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	GF0Shape10	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	GF010	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF010_Rangefinder_6m.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	GF010_lodShape1	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	GF010	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF010_Rangefinder_6m.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	GF010_lodShape2	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	GF010	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF010_Rangefinder_6m.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	GF010_lodShape3	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	GF010	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF010_Rangefinder_6m.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	3.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	GF0Shape10	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	8.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	GF010_lodShape1	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	12.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	GF010_lodShape2	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	90.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	GF010_lodShape3	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </GF010_Rangefinder_6m.visual>

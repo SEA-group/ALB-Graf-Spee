@@ -1,7 +1,6 @@
 <GGA007_20mm_Flak_38_dead.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/gun/lods/GGA007_20mm_Flak_38_dead_lod1	</parent>
-	<extent>	2.0000	</extent>
-	<nodefullVisual>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/gun/GGA007_20mm_Flak_38_dead	</nodefullVisual>
+	<visual>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/gun/GGA007_20mm_Flak_38_dead.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </GGA007_20mm_Flak_38_dead.model>

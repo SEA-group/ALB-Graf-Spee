@@ -1,38 +1,106 @@
 <GF004_3m_Rangefinder_Night_HA.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	director	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
+			<node>
+				<identifier>	director	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	director	</node>
-		<geometry>
-			<vertices>	directorShape.vertices	</vertices>
-			<primitive>	directorShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
-					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF004_3m_Rangefinder_Night_HA.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.1192 -0.0013 -0.0691	</min>
 		<max>	0.1192 0.1193 0.0691	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	directorShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	director	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF004_3m_Rangefinder_Night_HA.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	director_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	director	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF004_3m_Rangefinder_Night_HA.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	director_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	director	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF004_3m_Rangefinder_Night_HA.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	director_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	director	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMATX_PBSX_Director	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/finder/GF004_3m_Rangefinder_Night_HA.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	2.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	directorShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	8.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	director_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	20.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	director_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	50.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	director_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </GF004_3m_Rangefinder_Night_HA.visual>

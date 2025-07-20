@@ -1,9 +1,6 @@
 <GGT087_533_Torpedo_Tubes_Quad.model>
-	<exporter>	1.6	</exporter>
-	<parent>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/gun/lods/GGT087_533_Torpedo_Tubes_Quad_lod1	</parent>
-	<extent>	3.0000	</extent>
-	<materialNames />
-	<castsShadow>	true	</castsShadow>
-	<nodefullVisual>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/gun/GGT087_533_Torpedo_Tubes_Quad	</nodefullVisual>
+	<visual>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/gun/GGT087_533_Torpedo_Tubes_Quad.visual	</visual>
+	<animations />
+	<dyes />
 	<metaData>	Wargaming | Lesta Studio	</metaData>
 </GGT087_533_Torpedo_Tubes_Quad.model>

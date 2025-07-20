@@ -1,14 +1,7 @@
 <GC004_Catapult_4.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	Catapult	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
@@ -16,136 +9,245 @@
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
 			<node>
-				<identifier>	Cradle	</identifier>
+				<identifier>	Catapult	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
-			</node>
-		</node>
-		<node>
-			<identifier>	Root	</identifier>
-			<transform>
-				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-			</transform>
-			<node>
-				<identifier>	Root_BlendBone	</identifier>
-				<transform>
-					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-					<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-				</transform>
+				<node>
+					<identifier>	Cradle	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+					</transform>
+				</node>
 			</node>
 			<node>
-				<identifier>	Rotate_Y	</identifier>
+				<identifier>	Root	</identifier>
 				<transform>
 					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-					<row3>	0.0000 0.0333 0.0000 1.0000	</row3>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 				</transform>
 				<node>
-					<identifier>	Float_1	</identifier>
-					<transform>
-						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-						<row3>	0.0000 0.0774 0.0462 1.0000	</row3>
-					</transform>
-					<node>
-						<identifier>	Float_1_BlendBone	</identifier>
-						<transform>
-							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
-							<row3>	0.0000 -0.1107 -0.0462 1.0000	</row3>
-						</transform>
-					</node>
-				</node>
-				<node>
-					<identifier>	Float_2	</identifier>
-					<transform>
-						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-						<row3>	0.0000 0.0774 0.0462 1.0000	</row3>
-					</transform>
-					<node>
-						<identifier>	Float_2_BlendBone	</identifier>
-						<transform>
-							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
-							<row3>	0.0000 -0.1107 -0.0462 1.0000	</row3>
-						</transform>
-					</node>
-				</node>
-				<node>
-					<identifier>	HP_Plane_End	</identifier>
-					<transform>
-						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-						<row3>	0.0000 0.0774 0.5323 1.0000	</row3>
-					</transform>
-				</node>
-				<node>
-					<identifier>	HP_Plane_Start	</identifier>
-					<transform>
-						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-						<row3>	0.0000 0.0774 0.0462 1.0000	</row3>
-					</transform>
-				</node>
-				<node>
-					<identifier>	Rotate_Y_BlendBone	</identifier>
+					<identifier>	Root_BlendBone	</identifier>
 					<transform>
 						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 						<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
-						<row3>	0.0000 -0.0333 0.0000 1.0000	</row3>
+						<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 					</transform>
+				</node>
+				<node>
+					<identifier>	Rotate_Y	</identifier>
+					<transform>
+						<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+						<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+						<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+						<row3>	0.0000 0.0333 0.0000 1.0000	</row3>
+					</transform>
+					<node>
+						<identifier>	Float_1	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0774 0.0462 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Float_1_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	0.0000 -0.1107 -0.0462 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	Float_2	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0774 0.0462 1.0000	</row3>
+						</transform>
+						<node>
+							<identifier>	Float_2_BlendBone	</identifier>
+							<transform>
+								<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+								<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+								<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+								<row3>	0.0000 -0.1107 -0.0462 1.0000	</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>	HP_Plane_End	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0774 0.5323 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	HP_Plane_Start	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+							<row3>	0.0000 0.0774 0.0462 1.0000	</row3>
+						</transform>
+					</node>
+					<node>
+						<identifier>	Rotate_Y_BlendBone	</identifier>
+						<transform>
+							<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+							<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+							<row2>	0.0000 0.0000 -1.0000 0.0000	</row2>
+							<row3>	0.0000 -0.0333 0.0000 1.0000	</row3>
+						</transform>
+					</node>
 				</node>
 			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
-		<node>	Rotate_Y_BlendBone	</node>
-		<geometry>
-			<vertices>	CatapultShape.vertices	</vertices>
-			<primitive>	CatapultShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_Catapult_skinned	</identifier>
-					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/catapult/GC004_Catapult_4_skinned.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
-	<renderSet>
-		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
-		<node>	Float_2_BlendBone	</node>
-		<geometry>
-			<vertices>	CradleShape.vertices	</vertices>
-			<primitive>	CradleShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	SHIPMATX_PBSX_Catapult_skinned	</identifier>
-					<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/catapult/GC004_Catapult_4_skinned.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.2565 0.0000 -0.4324	</min>
 		<max>	0.1671 0.2419 0.4748	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	CatapultShape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Catapult_skinned	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/catapult/GC004_Catapult_4_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	CradleShape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Float_2_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Catapult_skinned	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/catapult/GC004_Catapult_4_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Catapult_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Catapult_skinned	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/catapult/GC004_Catapult_4_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Cradle_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Float_2_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Catapult_skinned	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/catapult/GC004_Catapult_4_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Catapult_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Catapult_skinned	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/catapult/GC004_Catapult_4_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Cradle_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Float_2_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Catapult_skinned	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/catapult/GC004_Catapult_4_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Catapult_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Rotate_Y_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Catapult_skinned	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/catapult/GC004_Catapult_4_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	Cradle_lod3Shape	</name>
+			<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	Float_2_BlendBone	</node>
+			</nodes>
+			<material>
+				<identifier>	SHIPMATX_PBSX_Catapult_skinned	</identifier>
+				<mfm>	PnFMods/SEA_ALB_GrafSpee/GSC506_Admiral_Graf_Spee/catapult/GC004_Catapult_4_skinned.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	5.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	CatapultShape	</renderSet>
+				<renderSet>	CradleShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	10.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Catapult_lod1Shape	</renderSet>
+				<renderSet>	Cradle_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	30.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	Catapult_lod2Shape	</renderSet>
+				<renderSet>	Cradle_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	130.0000	</extent>
+			<castsShadow>	false	</castsShadow>
+			<renderSets>
+				<renderSet>	Catapult_lod3Shape	</renderSet>
+				<renderSet>	Cradle_lod3Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </GC004_Catapult_4.visual>
